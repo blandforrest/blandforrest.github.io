@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  margin:0;
+  font-family: "Arial", verdana, monospace;
+  font-size:17px;
+  color:#fff;
+}
+
+#showcase{
+  background-image:url('img/showcase.jpeg');
+  background-size:cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:top;
+  align-items:top;
+  text-align:top;
+}
+
+h1 {
+  font-size: 50px;
+text-align: top;
+text-align: center;
+}
+
+h2 {
+  text-align: center;
+  text-align: top;
+  font-weight: bold;
+}
+
+img {
+  max-width:550px;
+  max-height:550px;
+  padding: 5px;
+  width; 100%;
+  height: auto;
+}
+.pics{
+  align-self: center;
+}
+
+#showcase .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#fff;
+  border:#fff 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top: 20px;
+  align-self: center;
+  align-text: bottom;
+}
+
+#showcase .button:hover{
+  background:#fff;
+  color:black;
+}
+
+.container{
+  background-color: white;
+  color:black;
+  margin-right:auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#showcase p{
+  font-size:15px;
+  font-weight: bold;
+  color: white;
+  line-height: 5.0;
+
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30em;
+  border-style : solid;
+  border-width: 3px;
+  padding: 50px, 50px;
+}

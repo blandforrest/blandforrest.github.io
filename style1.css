@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+body{
+  margin:0;
+  font-family: "Arial", verdana, monospace;
+  font-size:17px;
+  color:#fff;
+}
+
+#showcase{
+  background-image:url('img/showcase.jpeg');
+  background-size:cover;
+  background-position: center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:top;
+  align-items:top;
+  text-align:top;
+}
+
+#showcase h1{
+  font-size: 50px;
+}
+
+#showcase p{
+  font-size:15px;
+  font-weight: bold;
+  text-align:center;
+  line-height: 2.0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30em;
+}
